@@ -158,10 +158,10 @@ a.nav-link:hover {
 
 /* navbar end */
 
-.yeeyee {
+/* .yeeyee {
     height: 100%;
     width: 100%;
-}
+} */
 
 .lol {
     line-height: 1.6;
@@ -171,4 +171,12 @@ a.nav-link:hover {
     .nav-link {
         font-size: 3vw;
     }
+}
+
+.brownies {
+    background-color: #4f2735;
+
+.poop {
+    color: #e9bcb7;
+    font-size: 2vw;
 }
