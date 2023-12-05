@@ -36,6 +36,15 @@ body {
 .motley {
     font-family: motley;
 }
+
+@font-face {
+    font-family: shalma;
+    src: url('Shalma-Rp0Pe.otf');
+}
+
+.shalma {
+    font-family: shalma;
+}
 /*fonts end */
 
 /* typing animation */
@@ -175,4 +184,13 @@ a.nav-link:hover {
 .poop {
     color: #e9bcb7;
     font-size: 2vw;
+}
+
+.lala {
+    font-size: 7vw;
+    color: #cf8fa9;
+}
+
+.achieve {
+    font-size: 5vw;
 }
