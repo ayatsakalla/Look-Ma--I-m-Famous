@@ -27,6 +27,15 @@ body {
 .coolsanta {
     font-family: coolsanta;
 }
+
+@font-face {
+    font-family: shiftynotes;
+    src: url('ShiftyNotesRegular-BWZ6d.ttf');
+}
+
+.shiftynotes {
+    font-family: shiftynotes;
+}
 /*fonts end */
 
 /* typing animation */
@@ -34,10 +43,98 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.typed-cursor {
+    color: #A73E68;
+}
+
+.firsty {
+    font-size: 7vw;
+    color: whitesmoke;
+}
+
+.secondy {
+    font-size: 4.2vw;
+}
 /* typing animation end */
 
-/* navbar */
+/* autoplaying carousel */
+.slider-frame {
+    overflow: hidden;
+    height: 500px;
+    width: 800px; 
+    margin-top: 20px;
+}
 
+/* slide animation */
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 800px;
+    height: 500px;
+    margin: 0 0 0 0;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container{
+    height: 500px;
+    width: 800px;
+    position: relative;
+}
+/* autoplaying carousel end */
+
+/* navbar */
+a.navbar-brand {
+    font-size: 1.5vw;
+}
+a.navbar-brand:hover {
+    color: whitesmoke;
+}
+
+.nav-link {
+    font-size: 2vw;
+}
+
+a.nav-link:hover {
+    color: whitesmoke;
+}
 /* hamburger icon */
 .navbar-toggler {
     width: 20px;
