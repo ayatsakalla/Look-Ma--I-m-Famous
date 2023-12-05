@@ -29,12 +29,12 @@ body {
 }
 
 @font-face {
-    font-family: shiftynotes;
-    src: url('ShiftyNotesRegular-BWZ6d.ttf');
+    font-family: motley;
+    src: url('MotleyForcesRegular-w1rZ3.ttf');
 }
 
-.shiftynotes {
-    font-family: shiftynotes;
+.motley {
+    font-family: motley;
 }
 /*fonts end */
 
@@ -46,6 +46,7 @@ body {
 
 .typed-cursor {
     color: #A73E68;
+    font-family: coolsanta;
 }
 
 .firsty {
@@ -58,9 +59,6 @@ body {
 }
 /* typing animation end */
 
-/* autoplaying carousel */
-
-/* autoplaying carousel end */
 
 /* navbar */
 a.navbar-brand {
@@ -159,3 +157,18 @@ a.nav-link:hover {
 /* hamburger icon end */
 
 /* navbar end */
+
+.yeeyee {
+    height: 100%;
+    width: 100%;
+}
+
+.lol {
+    line-height: 1.6;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-link {
+        font-size: 3vw;
+    }
+}
